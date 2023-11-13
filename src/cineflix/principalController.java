@@ -56,10 +56,10 @@ public class principalController implements Initializable {
             LoadStage("Peliculas.fxml", e);
         }
         if(evt.equals(btnComedia)){
-            PeliculasController.image1 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/hablame.jpg";
-            PeliculasController.image2 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/winnie.jpg";
-            PeliculasController.image3 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/megan.jpg";
-            PeliculasController.image4 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/cria.jpg";
+            PeliculasController.image1 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Pixeles.jpeg";
+            PeliculasController.image2 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Un espia y medio.jpeg";
+            PeliculasController.image3 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Alerta roja.jpeg";
+            PeliculasController.image4 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Tiempo para mi.jpeg";
             PeliculasController.titulo1 = "Pixeles";
             PeliculasController.titulo2 = "Un espia y medio";
             PeliculasController.titulo3 = "Alerta roja";
