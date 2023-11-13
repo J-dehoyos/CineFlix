@@ -93,7 +93,25 @@ public class principalController implements Initializable {
             PeliculasController.precio4 = "$11";
             LoadStage("Peliculas.fxml", e);
         }
-        
+        if(evt.equals(btnSuspenso)){
+            PeliculasController.image1 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/sonido.jpg";
+            PeliculasController.image2 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/nowhere.jpg";
+            PeliculasController.image3 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/fall.jpg";
+            PeliculasController.image4 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/huye.jpg";
+            PeliculasController.titulo1 = "Sonido de libertad";
+            PeliculasController.titulo2 = "Nowhere";
+            PeliculasController.titulo3 = "Fall";
+            PeliculasController.titulo4 = "Huye";
+            PeliculasController.desc1 = "Un agente federal retirado se embarca en una peligrosa misión para salvar a una niña de unos despiadados traficantes de menores.";
+            PeliculasController.desc2 = "Mia, una joven embarazada, escapa de un país en guerra escondiéndose en un contenedor marítimo a bordo de un carguero. Tras una violenta tormenta, Mia da a luz mientras está perdida en el mar, donde debe luchar por sobrevivir.";
+            PeliculasController.desc3 = "Becky y Hunter, dos amigas aficionadas al alpinismo, quedan atrapadas en la torre de telecomunicaciones de la cima de una montaña que acaban de escalar.";
+            PeliculasController.desc4 = "Chris va a conocer a los padres de Rose, su novia. Al principio se muestran encantadores, si bien un tanto nerviosos. Chris supone que se debe a que él es negro, pero un poco más tarde descubre que sus suegros ocultan un secreto espeluznante.";
+            PeliculasController.precio1 = "$13";
+            PeliculasController.precio2 = "$16";
+            PeliculasController.precio3 = "$12";
+            PeliculasController.precio4 = "$11";
+            LoadStage("Peliculas.fxml", e);
+        }
     }
     
     @Override
