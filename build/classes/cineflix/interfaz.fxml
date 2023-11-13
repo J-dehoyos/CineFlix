@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -13,9 +14,9 @@
 
 <AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cineflix.interfazController">
    <children>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="700.0">
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #94c7b6;">
          <children>
-            <Label text="Bienvenido a CineFlix, Por favor inicie sesion">
+            <Label text="Bienvenido a CineFlix">
                <font>
                   <Font name="System Bold Italic" size="24.0" />
                </font>
@@ -38,17 +39,26 @@
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <TextField fx:id="textLuser" />
+            <TextField fx:id="textLuser">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
             <Label text="Contraseña">
                <font>
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <PasswordField fx:id="textLpass" />
+            <PasswordField fx:id="textLpass">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
             <Button fx:id="Login" mnemonicParsing="false" onAction="#actionEvent" text="Iniciar Sesion">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
          </children>
          <padding>
@@ -67,17 +77,26 @@
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <TextField fx:id="textRuser" />
+            <TextField fx:id="textRuser">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
             <Label text="Contraseña">
                <font>
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <PasswordField fx:id="textRpass" />
+            <PasswordField fx:id="textRpass">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
             <Button fx:id="Registro" mnemonicParsing="false" onAction="#actionEvent" text="Registrarse">
                <font>
                   <Font name="System Bold Italic" size="12.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
          </children>
          <padding>

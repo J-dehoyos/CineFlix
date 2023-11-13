@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CineFlix.jar" size="7027" download="eager" />
+    <jar href="CineFlix.jar" size="513373" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="cineflix.CineFlix"  name="CineFlix" />
   <update check="always"/>

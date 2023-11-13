@@ -33,6 +33,7 @@ import javafx.stage.WindowEvent;
  */
 public class interfazController implements Initializable {
     
+    public static String comprador;
     public listausuario lista = new listausuario();
     
     @FXML
@@ -59,6 +60,7 @@ public class interfazController implements Initializable {
             String pass = textLpass.getText();
             usuario login = lista.login(user, pass);
             if(login != null){
+                comprador = user;
                 LoadStage("principal.fxml", e);
             }
         }

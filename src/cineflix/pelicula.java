@@ -9,15 +9,27 @@ package cineflix;
  * @author jesus
  */
 public class pelicula {
-    String image, titulo, desc, precio;
+    String image, titulo, desc, precio, comprador;
     pelicula sig;
 
-    public pelicula(String image, String titulo, String desc, String precio) {
+    public pelicula() {
+    }
+    
+    public pelicula(String image, String titulo, String desc, String precio, String comprador) {
         this.image = image;
         this.titulo = titulo;
         this.desc = desc;
         this.precio = precio;
+        this.comprador = comprador;
         sig = null;
+    }
+
+    public String getComprador() {
+        return comprador;
+    }
+
+    public void setComprador(String comprador) {
+        this.comprador = comprador;
     }
 
     public String getImage() {
