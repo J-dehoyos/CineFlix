@@ -55,6 +55,25 @@ public class principalController implements Initializable {
             PeliculasController.precio4 = "$9";
             LoadStage("Peliculas.fxml", e);
         }
+        if(evt.equals(btnAccion)){
+            PeliculasController.image1 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/fast.jpg";
+            PeliculasController.image2 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/john.jpg";
+            PeliculasController.image3 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/indestructibles.jpg";
+            PeliculasController.image4 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/king.jpg";
+            PeliculasController.titulo1 = "Rapidos y furiosos X";
+            PeliculasController.titulo2 = "John Wick";
+            PeliculasController.titulo3 = "Los indestructibles 4";
+            PeliculasController.titulo4 = "Kingsman";
+            PeliculasController.desc1 = "Dom Toretto y sus familias se enfrentan al peor enemigo imaginable, uno llegado desde el pasado con sed de venganza, dispuesto a cualquier cosa con tal de destruir todo aquello que Dom ama.";
+            PeliculasController.desc2 = "John se infiltra en la coronación de Gianna y se enfrenta a ella en su camerino.";
+            PeliculasController.desc3 = "Los Indestructibles viajan a Libia para impedir que el mercenario Suarto Rahmat robe cabezas nucleares para entregárselas a un misterioso terrorista al que llaman Ocelot, quien pretende provocar el estallido de la IIIª Guerra Mundial.";
+            PeliculasController.desc4 = "Gary Eggsy Unwin, cuyo fallecido padre trabajó calladamente para una agencia de espionaje ultrasecreta, vive en una urbanización del sur de Londres y parece dirigirse hacia las rejas. Sin embargo, el elegante agente Harry Hart reconoce el potencial del muchacho y lo recluta para ser un aprendiz en el servicio secreto.";
+            PeliculasController.precio1 = "$15";
+            PeliculasController.precio2 = "$18";
+            PeliculasController.precio3 = "$12";
+            PeliculasController.precio4 = "$14";
+            LoadStage("Peliculas.fxml", e);
+        }
         if(evt.equals(btnComedia)){
             PeliculasController.image1 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Pixeles.jpeg";
             PeliculasController.image2 = "file:/C:/Users/jesus/Documents/NetBeansProjects/CineFlix/src/images/Un espia y medio.jpeg";
@@ -74,6 +93,7 @@ public class principalController implements Initializable {
             PeliculasController.precio4 = "$11";
             LoadStage("Peliculas.fxml", e);
         }
+        
     }
     
     @Override
