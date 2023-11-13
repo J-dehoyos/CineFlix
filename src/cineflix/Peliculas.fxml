@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="-4.0" layoutY="-2.0" prefHeight="89.0" prefWidth="700.0" style="-fx-background-color: #94c7b6;">
+         <children>
+            <Label text="Elija la pelicula de su preferencia">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <Separator layoutX="344.0" layoutY="87.0" orientation="VERTICAL" prefHeight="355.0" prefWidth="7.0" />
+      <Separator layoutX="-15.0" layoutY="263.0" prefHeight="0.0" prefWidth="711.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="95.0" prefHeight="26.0" prefWidth="111.0" text="label" textFill="#0d0d0d">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="364.0" layoutY="95.0" prefHeight="26.0" prefWidth="111.0" text="label" textFill="#0d0d0d">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="273.0" prefHeight="26.0" prefWidth="111.0" text="label" textFill="#0d0d0d">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="355.0" layoutY="273.0" prefHeight="26.0" prefWidth="111.0" text="label" textFill="#0d0d0d">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="140.0" fitWidth="105.0" layoutX="7.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="129.0" fitWidth="111.0" layoutX="355.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="140.0" fitWidth="111.0" layoutX="14.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="140.0" fitWidth="111.0" layoutX="364.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea disable="true" layoutX="210.0" layoutY="87.0" prefHeight="112.0" prefWidth="131.0" />
+      <TextArea disable="true" layoutX="539.0" layoutY="87.0" prefHeight="112.0" prefWidth="131.0" />
+      <TextArea disable="true" layoutX="539.0" layoutY="263.0" prefHeight="112.0" prefWidth="131.0" />
+      <TextArea disable="true" layoutX="210.0" layoutY="265.0" prefHeight="112.0" prefWidth="131.0" />
+      <Label layoutX="256.0" layoutY="214.0" text="kj" />
+      <Label layoutX="218.0" layoutY="214.0" prefHeight="17.0" prefWidth="38.0" text="precio" />
+      <Label layoutX="539.0" layoutY="385.0" prefHeight="17.0" prefWidth="44.0" text="precio" />
+      <Label layoutX="250.0" layoutY="385.0" text="kj" />
+      <Label layoutX="539.0" layoutY="214.0" prefHeight="17.0" prefWidth="44.0" text="precio" />
+      <Label layoutX="578.0" layoutY="214.0" prefHeight="17.0" prefWidth="16.0" text="kj" />
+      <Label layoutX="579.0" layoutY="385.0" text="kj" />
+      <Label layoutX="210.0" layoutY="385.0" prefHeight="17.0" prefWidth="44.0" text="precio" />
+      <Button layoutX="276.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #fff23d;" text="Comprar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="605.0" layoutY="231.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="Comprar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="277.0" layoutY="404.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="comprar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button layoutX="605.0" layoutY="404.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="Comprar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>
