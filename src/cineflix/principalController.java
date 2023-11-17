@@ -112,6 +112,9 @@ public class principalController implements Initializable {
             PeliculasController.precio4 = "$11";
             LoadStage("Peliculas.fxml", e);
         }
+        if(evt.equals(btnCarrito)){
+            LoadStage("carrito.fxml", e);
+        }
     }
     
     @Override

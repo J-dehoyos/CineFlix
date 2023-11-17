@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="cineflix.CarritoController">
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cineflix.CarritoController">
    <children>
       <HBox alignment="CENTER" layoutX="-11.0" prefHeight="89.0" prefWidth="715.0" style="-fx-background-color: #94c7b6;">
          <children>
@@ -26,14 +25,14 @@
             <Insets left="20.0" />
          </padding>
       </HBox>
-      <TableView layoutY="89.0" prefHeight="296.0" prefWidth="704.0">
+      <TableView fx:id="tabla" layoutY="89.0" prefHeight="296.0" prefWidth="704.0">
         <columns>
-          <TableColumn prefWidth="223.0" text="Titulo" />
-          <TableColumn prefWidth="231.0" text="Descripcion" />
-            <TableColumn prefWidth="231.0" text="Precio" />
+          <TableColumn fx:id="titulo" prefWidth="223.0" text="Titulo" />
+          <TableColumn fx:id="desc" prefWidth="231.0" text="Descripcion" />
+            <TableColumn fx:id="precio" prefWidth="231.0" text="Precio" />
         </columns>
       </TableView>
-      <Button layoutX="587.0" layoutY="394.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="91.0" style="-fx-background-color: #fff23d;" text="Comprar" textFill="#313230">
+      <Button fx:id="btnComprar" layoutX="587.0" layoutY="394.0" mnemonicParsing="false" onAction="#actionEvent" prefHeight="41.0" prefWidth="91.0" style="-fx-background-color: #fff23d;" text="Comprar" textFill="#313230">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -41,7 +40,7 @@
             <DropShadow />
          </effect>
       </Button>
-      <Button layoutX="6.0" layoutY="400.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="55.0" text="Volver">
+      <Button fx:id="btnVolver" layoutX="6.0" layoutY="400.0" mnemonicParsing="false" onAction="#actionEvent" prefHeight="35.0" prefWidth="55.0" text="Volver">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
