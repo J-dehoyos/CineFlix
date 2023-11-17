@@ -14,13 +14,21 @@
 
 <AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cineflix.PeliculasController">
    <children>
-      <HBox alignment="CENTER" layoutX="-4.0" layoutY="-2.0" prefHeight="89.0" prefWidth="700.0" style="-fx-background-color: #94c7b6;">
+      <HBox alignment="CENTER" layoutX="-4.0" layoutY="-2.0" prefHeight="89.0" prefWidth="700.0" spacing="90.0" style="-fx-background-color: #94c7b6;">
          <children>
             <Label text="Elija la pelicula de su preferencia">
                <font>
                   <Font name="System Bold Italic" size="24.0" />
                </font>
             </Label>
+            <Button fx:id="btnRegresar" mnemonicParsing="false" onAction="#actionEvent" text="Regresar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
          </children>
          <padding>
             <Insets left="20.0" />
@@ -64,28 +72,28 @@
       <Label fx:id="pc2" layoutX="580.0" layoutY="206.0" prefHeight="17.0" />
       <Label fx:id="pc4" layoutX="579.0" layoutY="385.0" />
       <Label layoutX="210.0" layoutY="385.0" prefHeight="17.0" prefWidth="44.0" text="precio" />
-      <Button layoutX="276.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #fff23d;" text="Comprar">
+      <Button fx:id="btnComprar1" layoutX="276.0" layoutY="231.0" mnemonicParsing="false" onAction="#actionEvent" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #fff23d;" text="Comprar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
          <effect>
             <DropShadow />
          </effect></Button>
-      <Button layoutX="605.0" layoutY="231.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="Comprar">
+      <Button fx:id="btnComprar2" layoutX="605.0" layoutY="231.0" mnemonicParsing="false" onAction="#actionEvent" style="-fx-background-color: #fff23d;" text="Comprar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
          <effect>
             <DropShadow />
          </effect></Button>
-      <Button layoutX="277.0" layoutY="404.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="comprar">
+      <Button fx:id="btnComprar3" layoutX="277.0" layoutY="404.0" mnemonicParsing="false" onAction="#actionEvent" style="-fx-background-color: #fff23d;" text="comprar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
          <effect>
             <DropShadow />
          </effect></Button>
-      <Button layoutX="605.0" layoutY="404.0" mnemonicParsing="false" style="-fx-background-color: #fff23d;" text="Comprar">
+      <Button fx:id="btnComprar4" layoutX="605.0" layoutY="404.0" mnemonicParsing="false" onAction="#actionEvent" style="-fx-background-color: #fff23d;" text="Comprar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
